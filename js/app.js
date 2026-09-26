@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitBtn = document.getElementById('submit-btn');
 
 
-    const API_URL = 'https://script.google.com/macros/s/AKfycbwqWHNYe3QUZVocuqBL50cRCXkI1OD0xtKRlv6_ySi1jc0Rihw6sHkYyouZeArsJ-T2qQ/exec';
+    const API_URL = 'https://script.google.com/macros/s/AKfycbw472T73Dy67aZfFmm15wo6BuK6CJTLq2mzDqdiJLwACzXI_bUeiVKPy8D4ZtW-hg3Bpg/exec';
     const PHONE_RE = /^[\d+()\s-]{10,18}$/;
 
     function setStatus(message, type) {
