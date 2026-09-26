@@ -133,8 +133,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnLoader = document.querySelector('.btn-loader');
     const submitBtn = document.getElementById('submit-btn');
 
-    // Замените на реальный Web App URL после публикации Google Apps Script
-    const API_URL = 'https://script.google.com/macros/s/AKfycbw32gluR53RtDmB5mYWXpCkkMF5mndKIHXIRJUW39XHWA3MYRLDK7nx4AqddrkvvaJphw/exec';
+
+    const API_URL = 'https://script.google.com/macros/s/AKfycbwqWHNYe3QUZVocuqBL50cRCXkI1OD0xtKRlv6_ySi1jc0Rihw6sHkYyouZeArsJ-T2qQ/exec';
     const PHONE_RE = /^[\d+()\s-]{10,18}$/;
 
     function setStatus(message, type) {
